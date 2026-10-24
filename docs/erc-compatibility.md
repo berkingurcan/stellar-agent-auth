@@ -1,17 +1,13 @@
 # ERC-8126 and ERC-8196 compatibility
 
-**Status:** draft. Anything marked **Proposed** still has to be agreed with the team building ERC-8126 and
-ERC-8196 on Stellar, which is a separate project with its own grant.
+**Specs:** [ERC-8126](https://eips.ethereum.org/EIPS/eip-8126) (AI Agent Verification) and
+[[ERC-8196](https://eips.ethereum.org/EIPS/eip-8196)](AI Agent Authenticated Wallet). 
 
-**Specs:** [ERC-8126](references/ercs/erc-8126.md) (AI Agent Verification) and
-[ERC-8196](references/ercs/erc-8196.md) (AI Agent Authenticated Wallet). Provenance is in
-[references/README.md](references/README.md).
+Related repository which will use these standards: [Stellar Agent Services](https://github.com/AlgoriaLabs/stellar-agent-services)
 
 ## Goal
 
-This repository does **not** implement either ERC. The SOW also excludes "the complete ERC-8126 specification".
-The goal is narrower: when Stellar implementations of these ERCs ship, they plug into what we build now without
-breaking changes on either side.
+Implement stellar versions of these standards. To have common interfaces for future integrations.
 
 ## How the layers fit
 
